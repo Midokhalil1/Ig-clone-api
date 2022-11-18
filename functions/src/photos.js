@@ -1,5 +1,5 @@
 import { FieldValue } from "firebase-admin/firestore";
-
+import jwt from 'jsonwebtoken'
 import dbConnect from "./dbConnect.js";
 import {secretKey} from "../secrets.js";
 
